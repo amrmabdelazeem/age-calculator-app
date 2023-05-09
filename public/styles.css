@@ -1,0 +1,189 @@
+:root{
+    --smokeyGrey: #716f6f;
+    --offWhite:hsl(0, 0%, 94%);
+    --purple:hsl(259, 100%, 65%);
+    --lightGrey:hsl(0, 0%, 86%);
+    --off-black:hsl(0, 0%, 8%);
+    --light-red:hsl(0, 100%, 67%);
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--offWhite);
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100%;
+    max-width: 375px;
+    background-color: #ffffff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+    border-bottom-right-radius: 120px;
+}
+
+label{
+    margin-right: 4.5rem;
+    font-size: .7rem;
+    color: var(--smokeyGrey);
+    letter-spacing: 2px;
+}
+/* label:last-of-type{
+    margin-left: -1.2rem;
+} */
+
+input{
+    margin-right: 1rem;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--lightGrey);
+    font-size: 20px;
+    text-indent: .5rem;
+    color: var(--off-black);
+    font-weight: 700;
+    
+}
+
+input:hover{
+    cursor: pointer;
+    border: 2px solid var(--purple);
+}
+
+button{
+    background-image: url(icon-arrow.svg);
+    padding: .5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--purple);
+    background-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    top: 2.5rem;
+    left: 7.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--off-black);
+}
+.labels{
+    display: flex;
+}
+.inputs{
+    display: flex;
+}
+
+.top-container{
+    display: flex;
+    margin-top: 4.5rem;
+    padding-top: 2.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--lightGrey);
+}
+span{
+    color: var(--purple);
+
+}
+.bottom-container{
+    color: var(--off-black);
+    line-height: .5;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    font-weight: 800;
+    font-style: italic;
+    padding-top: 2rem;
+    padding-bottom: 1.2rem;
+}
+
+.error-container{
+    display: flex;
+    gap: 70px;
+    font-weight: 400;
+    font-style: italic;
+}
+.error-day{
+    color: var(--light-red);
+    font-size: 8px;
+    visibility: hidden;
+}
+.error-month{
+    color: var(--light-red);
+    font-size: 8px;
+    visibility: hidden;
+}
+.error-year{
+    color: var(--light-red);
+    font-size: 8px;
+    visibility: hidden;
+}
+
+
+@media (min-width: 1200px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        width: 110%;
+        max-width: 700px;
+        margin-top: 5rem;
+    
+    }
+    .top-container{
+        display: flex;
+        padding-top: 0;
+        margin-left: 2.5rem;
+        padding-top: 3rem;
+        padding-bottom: 0;
+        margin-right: 4rem;
+        
+    }
+    /* label{
+    } */
+    label[for="DAY"]{
+        margin-right: 8rem;
+    }
+    label[for="MONTH"]{
+        margin-right: 6rem;
+    }
+    /* label[for="YEAR"]{
+    } */
+    input{
+        width: 8rem;
+        height: 4rem;
+
+    }
+    /* input[name="month"]{
+
+    }
+    input[name="year"]{
+  
+        
+    } */
+    form{
+        height: 7.5rem;
+    }
+    button{
+        position: relative;
+        top: -2rem;
+        left: 30rem;
+        width: 5rem;
+        height: 5rem;
+    }
+    .bottom-container{
+        margin-left: 4rem;
+        font-size: 2.5rem;
+
+    }
+}

@@ -164,6 +164,14 @@ function App(){
         }
         event.preventDefault();
     }
+    const [isButtonClicked, setIsButtonClicked] = useState(false);
+    const [showResults, setShowResults] = useState(false);
+  
+    const handleClick = () => {
+      setIsButtonClicked(true);
+      setShowResults(true);
+    };
+
 
     return (
         //Container
@@ -199,5 +207,6 @@ function App(){
     )
 
 }
+
 
 export default App;

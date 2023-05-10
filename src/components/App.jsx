@@ -195,7 +195,7 @@ function App(){
         <p className="error-year" id="error-year">Must be in the past</p>
         </div>
 
-        <button></button>
+        <button/>
         </form>
         </div>
         <div className="bottom-container">

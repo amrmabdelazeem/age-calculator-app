@@ -201,5 +201,9 @@ function App(){
 
 }
 
+// "homepage": "https://amrmabdelazeem.github.io/age-calculator-app",
+
+// "predeploy": "npm run build",
+// "deploy": "gh-pages -d build",
 
 export default App;

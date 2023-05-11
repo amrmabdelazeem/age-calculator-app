@@ -23,7 +23,7 @@ main{
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 20px;
-    border-bottom-right-radius: 120px;
+    border-bottom-right-radius: 170px;
 }
 
 label{
@@ -102,6 +102,7 @@ span{
     font-style: italic;
     padding-top: 2rem;
     padding-bottom: 1.2rem;
+    
 }
 
 .error-container{
@@ -135,55 +136,63 @@ span{
         align-items: center;
     }
     main{
-        width: 110%;
-        max-width: 700px;
-        margin-top: 5rem;
+        width: 80%;
+        max-width: 1200px;
+        margin-top: 9.6rem;
+        margin-left: 6rem;
+        margin-right: 18rem;
+        margin-bottom: 5rem;
     
     }
     .top-container{
         display: flex;
-        padding-top: 0;
-        margin-left: 2.5rem;
-        padding-top: 3rem;
+        margin-left: 5rem;
+        padding-top: 3.5rem;
         padding-bottom: 0;
         margin-right: 4rem;
+        padding-bottom: 1.5rem;
         
     }
     /* label{
     } */
     label[for="DAY"]{
-        margin-right: 8rem;
+        margin-right: 9rem;
+        font-size: 1rem;
     }
     label[for="MONTH"]{
-        margin-right: 6rem;
+        margin-right: 8rem;
+        font-size: 1rem;
     }
-    /* label[for="YEAR"]{
-    } */
+    label[for="YEAR"]{
+        font-size: 1rem;
+    }
     input{
-        width: 8rem;
+        width: 10rem;
         height: 4rem;
+        font-size: 2rem;
+        text-indent: 2rem;
+
 
     }
     /* input[name="month"]{
 
     }
     input[name="year"]{
-  
+        /* text-indent: 2rem; */
         
-    } */
     form{
         height: 7.5rem;
     }
     button{
         position: relative;
-        top: -2rem;
-        left: 30rem;
-        width: 5rem;
-        height: 5rem;
+        top: -1.2rem;
+        left: 39.2rem;
+        width: 6rem;
+        height: 6rem;
     }
     .bottom-container{
-        margin-left: 4rem;
-        font-size: 2.5rem;
+        margin-left: 6rem;
+        font-size: 3rem;
 
     }
 }

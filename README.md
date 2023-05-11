@@ -9,6 +9,7 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
+  - [Process](#process)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
@@ -56,7 +57,16 @@ Users should be able to:
 - [React](https://react.dev/learn) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
 
+### Process
 
+- Built the Structure with HTML
+- Mobile First view concept applied.
+- Styled with CSS
+- Built the components for the react App
+- Started to work on the logic for the calculation of the age
+- Wrote functions with JS to check for leap years and the logic to calculate days and months
+- Added form validation and error messages
+- Used Media Queries for responsive desktop
 
 ### Useful resources
 

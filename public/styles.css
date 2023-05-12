@@ -9,12 +9,13 @@
 html{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 body{
+    min-height: 100%;
     margin: 0;
     padding: 0;
     background-color: var(--offWhite);
-    background-size: 120%;
     font-family: 'Poppins', sans-serif;
 }
 main{
@@ -116,6 +117,7 @@ span{
     color: var(--light-red);
     font-size: 8px;
     visibility: hidden;
+    margin-right: 0;
 }
 .error-month{
     color: var(--light-red);
